@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ImageList />
+        <ImageList images={this.state.images} />
       </div>
     );
   }
